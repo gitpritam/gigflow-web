@@ -1,0 +1,9 @@
+export { default as Home } from "./home/home.page";
+export { default as SignInPage } from "./auth/signin/signin.page";
+export { default as SignUpPage } from "./auth/signup/signup.page";
+export { default as ShowGigsPage } from "./gig/showgigs.page";
+export { default as AddGigPage } from "./gig/addgig.page";
+export { default as ShowGigDetailsPage } from "./gig/showGigDetails.page";
+export { default as ShowBidsPage } from "./gig/showBids.page";
+export { default as DashboardPage } from "./dashboard/dashboard.page";
+export { default as NotFoundPage } from "./NotFound.page";

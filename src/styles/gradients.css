@@ -1,0 +1,177 @@
+/* Brand Gradients */
+.bg-gradient-brand {
+  background: linear-gradient(to right, #3b82f6, #6366f1);
+}
+
+.bg-gradient-brand-light {
+  background: linear-gradient(
+    to right,
+    rgba(59, 130, 246, 0.05),
+    rgba(99, 102, 241, 0.05)
+  );
+}
+
+.bg-gradient-brand-icon {
+  background: linear-gradient(to bottom right, #3b82f6, #6366f1);
+}
+
+.bg-gradient-brand-blur {
+  background: linear-gradient(
+    to bottom right,
+    rgba(59, 130, 246, 0.3),
+    rgba(99, 102, 241, 0.3)
+  );
+}
+
+.bg-gradient-page {
+  background: linear-gradient(to bottom right, #fafafa, #f5f7fa, #fafafa);
+}
+
+/* Text Gradients */
+.text-gradient-brand {
+  background: linear-gradient(to right, #3b82f6, #6366f1);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Button Gradients */
+.btn-gradient-primary {
+  background: linear-gradient(to right, #3b82f6, #6366f1);
+  color: #ffffff;
+}
+
+.btn-gradient-primary:hover {
+  opacity: 0.9;
+}
+
+/* Status Badge Gradients */
+.badge-status-open {
+  background: linear-gradient(
+    to right,
+    rgba(52, 211, 153, 0.15),
+    rgba(16, 185, 129, 0.15)
+  );
+  color: #10b981;
+  border: 1px solid rgba(52, 211, 153, 0.3);
+}
+
+.badge-status-open:hover {
+  background: linear-gradient(
+    to right,
+    rgba(52, 211, 153, 0.2),
+    rgba(16, 185, 129, 0.2)
+  );
+}
+
+.badge-status-assigned {
+  background: linear-gradient(
+    to right,
+    rgba(59, 130, 246, 0.15),
+    rgba(99, 102, 241, 0.15)
+  );
+  color: #3b82f6;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+}
+
+.badge-status-assigned:hover {
+  background: linear-gradient(
+    to right,
+    rgba(59, 130, 246, 0.2),
+    rgba(99, 102, 241, 0.2)
+  );
+}
+
+.badge-status-completed {
+  background: linear-gradient(
+    to right,
+    rgba(148, 163, 184, 0.15),
+    rgba(148, 163, 184, 0.2)
+  );
+  color: #64748b;
+  border: 1px solid rgba(148, 163, 184, 0.3);
+}
+
+.badge-status-completed:hover {
+  background: linear-gradient(
+    to right,
+    rgba(148, 163, 184, 0.2),
+    rgba(148, 163, 184, 0.25)
+  );
+}
+
+.badge-status-cancelled {
+  background: linear-gradient(
+    to right,
+    rgba(239, 68, 68, 0.15),
+    rgba(220, 38, 38, 0.15)
+  );
+  color: #ef4444;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.badge-status-cancelled:hover {
+  background: linear-gradient(
+    to right,
+    rgba(239, 68, 68, 0.2),
+    rgba(220, 38, 38, 0.2)
+  );
+}
+
+/* Hero Card Gradients */
+.hero-card-indigo {
+  background: linear-gradient(
+    to bottom right,
+    rgba(59, 130, 246, 0.08),
+    rgba(99, 102, 241, 0.08)
+  );
+  border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+.hero-card-purple {
+  background: linear-gradient(
+    to bottom right,
+    rgba(99, 102, 241, 0.08),
+    rgba(139, 92, 246, 0.08)
+  );
+  border: 1px solid rgba(99, 102, 241, 0.2);
+}
+
+.hero-card-pink {
+  background: linear-gradient(
+    to bottom right,
+    rgba(139, 92, 246, 0.08),
+    rgba(52, 211, 153, 0.08)
+  );
+  border: 1px solid rgba(139, 92, 246, 0.2);
+}
+
+.hero-card-blue {
+  background: linear-gradient(
+    to bottom right,
+    rgba(59, 130, 246, 0.1),
+    rgba(52, 211, 153, 0.08)
+  );
+  border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+.hero-card-circle-indigo {
+  background: linear-gradient(to bottom right, #3b82f6, #6366f1);
+}
+
+.hero-card-circle-purple {
+  background: linear-gradient(to bottom right, #6366f1, #8b5cf6);
+}
+
+.hero-card-circle-pink {
+  background: linear-gradient(to bottom right, #8b5cf6, #34d399);
+}
+
+.hero-card-circle-blue {
+  background: linear-gradient(to bottom right, #3b82f6, #34d399);
+}
+
+/* How It Works Connector */
+.connector-line {
+  background: linear-gradient(to right, #3b82f6, #34d399);
+}
