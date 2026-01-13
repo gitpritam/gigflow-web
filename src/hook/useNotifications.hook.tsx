@@ -3,7 +3,9 @@ import { io, Socket } from "socket.io-client";
 import type { INotification } from "@/@types/notification.types";
 import { apiRequest } from "@/utils/apiRequest";
 
-const SOCKET_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const SOCKET_URL =
+  import.meta.env.VITE_API_URL ||
+  "https://gigflow-backend-typescript.onrender.com";
 
 // Helper function to get JWT token from cookie
 const getTokenFromCookie = (): string | null => {
