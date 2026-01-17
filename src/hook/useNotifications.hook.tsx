@@ -91,10 +91,8 @@ export const useNotifications = (userId: string | undefined) => {
 
     console.log("🔌 Connecting to Socket.IO with token...");
     const socketInstance = io(SOCKET_URL, {
-      auth: {
-        token, // ✅ Send JWT token, not userId
-      },
       withCredentials: true,
+      transports: ["websocket", "polling"],
     });
 
     socketInstance.on("connect", () => {
