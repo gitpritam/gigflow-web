@@ -9,7 +9,14 @@ export enum BidStatus {
 export interface IBid {
   _id: string;
   gigId: string;
-  freelancerId: string;
+  bidderId:
+    | string
+    | {
+        _id: string;
+        name: string;
+        email: string;
+      };
+  freelancerId?: string;
   freelancer?: IUser;
   price: number;
   message: string;

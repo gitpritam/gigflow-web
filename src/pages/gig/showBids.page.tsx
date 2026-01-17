@@ -151,7 +151,7 @@ const ShowBidsPage: React.FC = () => {
                   {bids.map((bid) => (
                     <TableRow key={bid._id}>
                       <TableCell className="font-medium">
-                        {bid.freelancer?.name || "Unknown"}
+                        {typeof bid.bidderId === 'object' ? bid.bidderId.name : "Unknown"}
                       </TableCell>
                       <TableCell className="font-semibold text-blue-600">
                         {formatBudget(bid.price)}
